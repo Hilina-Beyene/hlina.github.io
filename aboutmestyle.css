@@ -1,0 +1,59 @@
+
+h1 {
+    font-family: "Harlow Solid Italic";
+    font-style: italic;
+}
+
+h3 {
+    font-family: "Arial Rounded MT Bold";
+    font-style: italic;
+}
+
+.mood {
+    height: 400px;
+    width: 75%;
+}
+.division {
+    background-color: dimgrey;
+    padding: 50px;
+}
+
+.main {
+    height:500px;
+    position:relative;
+}
+.left {
+    float:left;
+    position:absolute;
+    bottom:0px;
+}
+.right {
+
+    float:left;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+
+.yellow{
+    color: yellow;
+}
+.red{
+    color: red;
+}
+.black{
+    color: black;
+}
+.disc {
+    list-style-type: disc;
+    list-style-position: outside;
+    color: white;
+    list-style-image: none;
+}
+.numbering {
+    list-style-type: decimal;
+    list-style-position: outside;
+    color: white;
+    list-style-image: none;
+}
+
