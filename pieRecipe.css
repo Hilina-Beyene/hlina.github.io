@@ -1,0 +1,53 @@
+body{
+    background-color:  white;
+    color: #404040;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: 18pt;
+    text-decoration: underline;
+    font-weight: normal;
+
+}
+section h1{
+    text-align: center;
+    font-size: 22pt;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+a:link {
+    color: #A4A400;
+}
+
+section{
+    border-bottom: 1px solid  #94adb8;
+}
+h2{
+    text-transform: uppercase;
+}
+.main-point, .important-keywords{
+    font-weight: bold;
+}
+.deleted{
+    text-decoration: line-through;
+}
+blockquote{
+    background-color: #FFFFA8;
+    font-style: italic;
+}
+.quote-by{
+    padding-top: 10px;
+}
+#answer, .links, .quote-by, p#details span{
+    display: block;
+}
+section#last{
+    border-bottom: none;
+}
+footer{
+    text-align: left;
+}
