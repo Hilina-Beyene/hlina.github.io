@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Change Image</title>
+
+    <script>
+        var image = "../happy.jpg"
+        function swap() {
+            var getImage = document.getElementById("swapImage");
+            if(image === "../happy.jpg") {
+                getImage.src = "../sad.jpg";
+                image = "../sad.jpg";
+            }
+            else if(image === "../sad.jpg"){
+                getImage.src = "../happy.jpg";
+                image =  "../happy.jpg";
+            }
+        }
+    </script>
+</head>
+<body>
+<div>
+    <img id="swapImage" src="../happy.jpg" alt="img" />
+    <button  onclick="swap()">Swap</button>
+</div>
+</body>
+</html>

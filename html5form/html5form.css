@@ -1,0 +1,30 @@
+thead {
+    background-color: gray;
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+button{
+    background-color: deepskyblue;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: darkgreen;
+}
+
+table {
+    width: 100%;
+}
+#task {
+    width: 400px;
+}
+
+#categ {
+    width: 200px;
+}

@@ -1,0 +1,52 @@
+.mainDiv {
+    background-color: white;
+    vertical-align: top;
+}
+.headerDiv {
+    background-color: deepskyblue;
+    vertical-align: top;
+}
+.footerDiv {
+    background-color: darkgreen;
+    vertical-align: top;
+}
+
+.navDiv {
+    background-color: darkgreen;
+    vertical-align: top;
+    height: 30px;
+}
+
+.inner {
+    width: 33%;
+    height: 150px;
+    margin: 0 auto;
+    background: green;
+    horiz-align: left;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.borderlist {
+    list-style-position:inside;
+    border-right: 1px solid black;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+}
+
+header {
+    text-align: center;
+    height: 40px;
+}
+
+footer{
+    text-align: center;
+    height: 40px;
+}

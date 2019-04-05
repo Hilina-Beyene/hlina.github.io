@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 5 Form</title>
+    <link rel="stylesheet" href="html5form.css" type="text/css"/>
+</head>
+<body>
+<form>
+    <label>Task</label>
+    <br />
+    <input id="task" type="text" name="task" placeholder="Breakfast at everyday">
+    <br />
+    <br />
+    <label>Required by</label>
+    <br />
+    <input type="date" name="date" placeholder="dd/mm/yyyy">
+    <br />
+    <br />
+    <label>Category</label>
+    <br />
+    <select id="categ" name="category">
+        <option value="personal">Personal</option>
+        <option value="work">Work</option>
+    </select>
+    <br />
+    <br />
+    <button type="button" name="save">Save</button>
+    <button type="button" name="clear">Clear</button>
+    <br/>
+    <br/>
+    <table>
+        <thead>
+             <tr>
+                 <th>Name</th>
+                 <th>Due</th>
+                 <th>Category</th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Return library book</td>
+                <td>2013-10-14</td>
+                <td>Personal</td>
+            </tr>
+            <tr>
+                <td>Perform project demo to stakeholders</td>
+                <td>2013-10-14</td>
+                <td>Work</td>
+            </tr>
+            <tr>
+                <td>Meet friends for dinner</td>
+                <td>2013-10-14</td>
+                <td>Personal</td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+    <br/>
+    <button type="button" name="addtask">Add Task</button>
+</form>
+<footer>
+    <span><a href="../index.html"> Homework: HTML Form</a></span>
+    <a href="https://validator.w3.org/check?uri=referer"><img
+            src="http://www.w3.org/Icons/valid-xhtml10"
+            alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+             src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+             alt="Valid CSS!" />
+    </a>
+</footer>
+</body>
+</html>

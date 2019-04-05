@@ -23,12 +23,13 @@ h3 {
     position:relative;
 }
 .left {
+    margin-right: fill;
     float:left;
     position:absolute;
     bottom:0px;
 }
 .right {
-
+    margin-left: fill;
     float:left;
     position:absolute;
     bottom:0px;
