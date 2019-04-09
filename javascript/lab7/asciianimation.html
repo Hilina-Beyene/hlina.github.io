@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ASCII Animation</title>
+    <link rel="stylesheet" type="text/css" href="asciianimation.css" />
+    <script src="asciianimation.js" rel="script"></script>
+</head>
+<body>
+<div id="outerDiv">
+    <div id="main">
+        <div>
+            <span>icon</span>
+            <div class="headertext">
+                <span class="text">CSE 190 M ASCII Animation Viewer</span>
+            </div>
+        </div>
+        <div class="animation-container">
+            <div class="animation-background">
+                animation
+            </div>
+        </div>
+        <div id="controllers">
+            <div>
+                <fieldset>
+                    <legend>Play Controls:</legend>
+                    <button id="startButton">Start</button>
+                    <button id="stopButton">Stop</button>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Animations:</legend>
+                    <select id="animationSelection">
+                        <option value="blank">Blank</option>
+                        <option value="exercise">Exercise</option>
+                        <option value="juggler">Juggler</option>
+                        <option value="bike">Bike</option>
+                        <option value="dive">Dive</option>
+                    </select>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Size:</legend>
+                    <select id="sizeSelection">
+                        <option value="tiny">Tiny</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                        <option value="extraLarge">Extra Large</option>
+                        <option value="xxl">XXL</option>
+                    </select>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Speed:</legend>
+                    <input type="checkbox" name="turbo" id="turboInput" value="Turbo">
+                </fieldset>
+            </div>
+        </div>
+        <footer>
+            <div class="footerDiv">
+                <span><a href="../index.html">Home</a></span>
+            </div>
+            <div class="footerDiv">
+                <a href="https://validator.w3.org/check?uri=referer"><img
+                        src="http://www.w3.org/Icons/valid-xhtml10"
+                        alt="Valid XHTML 1.0!" height="31" width="88" />
+                </a>
+            </div>
+            <div class="footerDiv">
+                <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                         src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                         alt="Valid CSS!" />
+                </a>
+            </div>
+            <div class="footerDiv">
+                <a href="http://webster.cs.washington.edu/jslint?referer">
+                    <img src="jslint.png" alt="JavaScript Lint">
+                </a>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
