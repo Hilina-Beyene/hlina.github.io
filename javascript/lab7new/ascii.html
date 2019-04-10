@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title> ASCIImation</title>
+    <link href="ascii.css" rel="stylesheet" type="text/css" >
+    <script src="ascii.js"></script>
+    <script src="animations.js"></script>
+</head>
+<body>
+<h1>CS472 Web Programming</h1>
+<div id="textarea1">
+<textarea cols="80"  rows="20" id="textarea">
+
+</textarea>
+</div>
+<div id="fields">
+    <fieldset>
+        <legend>Play Controls:</legend>
+        <input type="button" name="start" value="Start" id="startbutton" onclick="start()">
+        <input type="button" name="stop" value="stop" id="stopbutton" onclick="stop()" disabled>
+    </fieldset>
+    <fieldset>
+        <legend>Animation:</legend>
+        <select name="animations" id="animations" onchange="setAnimationType()">
+            <option>Blank</option>
+            <option>Exercise</option>
+            <option>Juggler</option>
+            <option>Bike</option>
+            <option>Dive</option>
+            <option>Custom</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Size:</legend>
+        <select name="size" id="setsize" onchange="setSize()">
+            <option>Tiny</option>
+            <option>Small</option>
+            <option selected>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+            <option>XXL</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Speed:</legend>
+        <label><input type="checkbox" name="Speed" id="turbo" onclick="turbo()">Turbo</label>
+    </fieldset>
+    <p>
+        <a href="https://validator.w3.org/check?uri=referer"><img
+                src="http://www.w3.org/Icons/valid-xhtml10"
+                alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                 src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                 alt="Valid CSS!" />
+        </a>
+
+        <a href="https://webster.cs.washington.edu/jslint/?referer">
+            <img src="https://webster.cs.washington.edu/w3c-js.png" alt="Valid JS" />
+        </a>
+    </p>
+</div>
+
+
+</body>
+</html>

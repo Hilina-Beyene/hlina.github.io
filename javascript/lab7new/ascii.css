@@ -1,0 +1,29 @@
+body{
+    background-color:  #CCCCFF;
+    font: 14pt bold sans-serif;
+}
+h1{
+    font: 32pt bold;
+    text-align: center;
+}
+#textarea1{
+    text-align: center;
+}
+textarea{
+    width: 90%;
+    height: 400px;
+    font: 12pt bold monospace;
+
+}
+fieldset{
+    border: 5px solid black;
+    display: inline;
+}
+#fields{
+    text-align: center;
+}
+p{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
