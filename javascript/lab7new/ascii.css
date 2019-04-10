@@ -22,6 +22,9 @@ fieldset{
 #fields{
     text-align: center;
 }
+.footerDiv{
+    text-align: right;
+}
 p{
     position: fixed;
     bottom: 0;
